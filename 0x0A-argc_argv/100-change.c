@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
 	{
 		while (total > 1)
 		{
+			for (i = 0; i < sizeof(cents[i]); i++)
+			{
 			if (total >= cents[i])
 			{
 				count += total / cents[i];
